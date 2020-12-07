@@ -1,0 +1,13 @@
+#Loja{
+    background-image: url('../public/backgroundLojaWeb.svg');
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    #Loja{
+        background-image: url('../public/backgroundLojaMobile.svg')
+    }
+}
+  
