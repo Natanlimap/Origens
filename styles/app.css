@@ -10,6 +10,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#Contato{
+    background-image: url('../public/contato-background.svg');
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media (max-width: 1024px) {
     #Loja{
