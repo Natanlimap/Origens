@@ -4,10 +4,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#Artesanal{
+    background-image: url('../public/artesanal-background.svg');
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media (max-width: 1024px) {
     #Loja{
         background-image: url('../public/backgroundLojaMobile.svg')
+    }
+ 
+}
+@media (max-width: 768px) {
+    #Artesanal{
+        background-image: url('../public/artesanal-background-mobile.svg');
     }
 }
   

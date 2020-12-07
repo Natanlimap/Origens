@@ -5,7 +5,7 @@ export default function Loja() {
         <div id='Loja' className='flex flex-wrap-reverse flex-row justify-center text-center'>
             <Image
                 className='lg:mx-20'
-                src='/Produtos.svg'
+                src='/loja-produtos.svg'
                 alt="Picture of the author"
                 width={400}
                 height={400} />
