@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 
 export default function Contato() {
@@ -6,7 +7,7 @@ export default function Contato() {
         <div className='h-screen' id='Contato'>
             <div className='grid lg:grid-cols-2 h-screen'>
                 <div className='h-2/4 flex justify-end my-auto'>
-                    <div className='lg:w-2/4 lg:mr-20 lg:text-justify lg:pb-0 md:mx-60 lg:pt-10 sm:mx-40 mx-20 w-full  pb-20  text-center '>
+                    <div className='lg:w-2/6 lg:mr-20 lg:text-justify lg:pb-0 md:mx-60 lg:pt-10 sm:mx-40 mx-20 w-full  pb-20  text-center '>
                         <Image
                             alt=''
                             src='/contato-logo.svg'
@@ -20,12 +21,16 @@ export default function Contato() {
 
                         <div className='lg:mx-0 lg:ml-0 flex flex-row flex-nowrap lg:justify-start md:mx-30 justify-around mx-30 ml-4'>
                             <div className='lg:mr-4'>
-                                <Image
-                                    alt=''
-                                    src='/contato-icone-link.svg'
-                                    width={50}
-                                    height={50}
-                                />
+                                <Link href='https://www.linkedin.com/company/salmaranata'>
+                                    <a>
+                                        <Image
+                                            alt=''
+                                            src='/contato-icone-link.svg'
+                                            width={50}
+                                            height={50}
+                                        />
+                                    </a>
+                                </Link>
                             </div>
                             <div className='lg:mr-4'>
                                 <Image
