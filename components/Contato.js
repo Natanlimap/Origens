@@ -20,7 +20,7 @@ export default function Contato() {
                         <p className='text-base pb-10'>(84) 3422-0100</p>
 
                         <div className='lg:mx-0 lg:ml-0 flex flex-row flex-nowrap lg:justify-start md:mx-30 justify-around mx-30 ml-4'>
-                            <div className='lg:mr-4'>
+                            <div className='lg:mr-4 '>
                                 <Link href='https://www.linkedin.com/company/salmaranata'>
                                     <a>
                                         <Image
@@ -32,22 +32,33 @@ export default function Contato() {
                                     </a>
                                 </Link>
                             </div>
+
                             <div className='lg:mr-4'>
-                                <Image
-                                    alt=''
-                                    src='/contato-icone-insta.svg'
-                                    width={50}
-                                    height={50}
-                                />
+                                <Link href='https://www.instagram.com/salmaranata/?hl=pt-br'>
+                                    <a>
+                                        <Image
+                                            alt=''
+                                            src='/contato-icone-insta.svg'
+                                            width={50}
+                                            height={50}
+                                        />
+                                    </a>
+                                </Link>
                             </div>
+
                             <div className='lg:mr-4'>
-                                <Image
-                                    alt=''
-                                    src='/contato-icone-wpp.svg'
-                                    width={50}
-                                    height={50}
-                                />
+                                <Link href='https://api.whatsapp.com/send?phone=558434220100'>
+                                    <a>
+                                        <Image
+                                            alt=''
+                                            src='/contato-icone-wpp.svg'
+                                            width={50}
+                                            height={50}
+                                        />
+                                    </a>
+                                </Link>
                             </div>
+
                         </div>
                     </div>
                 </div>
