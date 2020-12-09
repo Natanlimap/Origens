@@ -40,12 +40,12 @@ export default function Sal() {
                             <img className='mt-2  lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
                         </div>
                         <div className='mx-auto mt-5 text-center'>
-                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Carnes e Aves</p>
-                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
+                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Peixes</p>
+                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./produtos-peixe.svg'></img>
                         </div>
                         <div className='mx-auto mt-5 text-center'>
-                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Carnes e Aves</p>
-                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
+                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Verduras e Legumes</p>
+                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./produtos-verdura.svg'></img>
                         </div>
                     </div>
             </div>
@@ -81,16 +81,19 @@ export default function Sal() {
                 </div>
                 <div className='lg:flex-row lg:mt-20 lg:mx-20 flex flex-col justify-center'>
                         <div className='mx-auto mt-5 text-center'>
-                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Carnes e Aves</p>
-                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
+                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-3xl'>Temperar</p>
+                            <p style={{ color: '#f3e2d2' }} className=' text-xl'>saladas</p>
+                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./produtos-salada.svg'></img>
                         </div>
                         <div className='mx-auto mt-5 text-center'>
-                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Carnes e Aves</p>
-                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
+                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-3xl'>Fazer</p>
+                            <p style={{ color: '#f3e2d2' }} className=' text-xl'>molhos</p>
+                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./produtos-molhos.svg'></img>
                         </div>
                         <div className='mx-auto mt-5 text-center'>
-                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Carnes e Aves</p>
-                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
+                            <p style={{ color: '#f3e2d2' }} className=' font-bold text-3xl'>Finalizar</p>
+                            <p style={{ color: '#f3e2d2' }} className=' text-xl'>pratos</p>
+                            <img className='mt-2 lg:px-10 md:px-24 sm:px-10 px-14' src='./produtos-finalizar.svg'></img>
                         </div>
                     </div>
             </div>

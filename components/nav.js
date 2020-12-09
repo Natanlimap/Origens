@@ -5,7 +5,8 @@ import { useState } from "react";
 export default function MyNavbar({ fixed }) {
   const [teste, setTeste] = React.useState(<div></div>)
 
-  function openNav() {
+  function openNav(event) {
+    event.preventDefault()
     setTeste(
       <div id='floatSide' style={{backgroundColor: '#0a5c99'}} className='h-screen w-1/2 '>
         <div className='flex flex-row justify-end'>
@@ -39,7 +40,7 @@ export default function MyNavbar({ fixed }) {
           <a href='/' className='text-white mx-5'><p>Loja</p></a>
           <a href='/' className='text-white mx-5'><p>Contato</p></a>
         </div>
-        <button className='flex md:hidden' onClick={openNav}>teste</button>
+        <a href='/' className='flex md:hidden' onClick={openNav}><img src='./hamburguer.svg'></img></a>
       </div>
     </div>
   );
