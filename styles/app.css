@@ -5,7 +5,7 @@
 #Header{
     background-image: url('../public/header-background.svg');
     width: 100vw;
-    height: 160vw;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,6 +44,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#Footer{
+    background-image: url('../public/footer.svg');
+    width: 100vw;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #Origens-sal-duplo-mobile{
     display: none;
@@ -55,7 +62,9 @@
 
 @media (max-width: 1025px) {
     #Header{
-        background-image: url('../public/header-background-mobile.jpg')
+        background-image: url('../public/header-background-mobile.jpg');
+        height: 160vw;
+
     }
     #Loja{
         background-image: url('../public/produtos-background.svg')

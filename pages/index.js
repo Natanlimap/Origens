@@ -15,7 +15,7 @@ export default function IndexPage() {
       <Produtos />
       <Loja />
       <Contato />
-
+      <footer id='Footer'></footer>
     </div>
   )
 }
