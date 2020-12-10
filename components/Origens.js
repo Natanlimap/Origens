@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Origens() {
     return (
         <div id='Origens-fundo' >
-            <div id='Origens'>
+            <div className='pt-10' id='Origens'>
                 <div className='lg:grid lg:grid-cols-7 lg:grid-cols-7   flex flex-row justify-center text-center' >
-                    <div className='xl: col-start-5 lg:col-start-4 lg:col-end-7 lg:pt-0 md: pt-96 pt-72 mt-10'>
+                    <div className='xl:col-start-5 lg:col-start-4 lg:col-end-8  md:col-end-7 lg:pt-0 md:pt-32 md:mt-0  mt- mt-10'>
                         <Image
                             src='/origens-logo.svg'
                             width={300}

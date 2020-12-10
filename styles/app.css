@@ -75,7 +75,7 @@
     }
     #Origens-fundo{
         background-color: #096aa1;
-        height: 40rem;
+        height: 20rem;
     }
     #Origens-sal-duplo-mobile{
         display: block;
@@ -97,63 +97,6 @@
 
 }
 
-.navBar {
-    background-color: red;
-    flex-direction: row;
-    width: 100%;
-    padding: 8% 8% 0% 8%;
-}
-
-.navBar ul {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navBar ul li {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    justify-content: center;
-}
-.navBar ul li img {
-    width: 100%;
-}
-.navBar-listItems {
-    justify-content: flex-end;
-}
-.iconBurguer{
-    width: 20% !important;
-    margin-left: 60%;
-}
-.navBar-link {
-    display: none;
-}
-
-@media(min-width: 738px) {
-    .navBar {
-        padding-top:2% ;
-    }
-    .navBar ul li img {
-        width: 100%;
-    }
-    .iconBurguer {
-        display: none;
-    }
-    .navBar-link {
-        display: flex;
-        color: #fff;
-    }
-    .navBar ul li img {
-        width: 40%;
-    }
-
-    .navBar-link {
-        margin: 0 2%;
-    }
-
-}
 
 #floatSide{
     position:fixed;

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Sal() {
     return (
-        <div id='Sal' className='h-screen pt-10'>
+        <div id='Sal' className='h-screen pt-40'>
             <div className='xl:mx-40 lg:mx-10 md:mx-40 flex flex-col justify-center pt-0 mx-10'>
                 <div className='flex flex-col justify-center'>
                     <img id='Origens-sal-duplo-mobile' className='md:p-0 sm:mt-5 pt-10 pb-4' src='/sal-produto-duplo.svg'></img>
@@ -34,7 +34,7 @@ export default function Sal() {
 
                    
                 </div>
-                <div className='lg:flex-row md:mt-32  lg:mx-20 flex flex-col justify-center'>
+                <div className='lg:flex-row md:mt-10  lg:mx-20 flex flex-col justify-center'>
                         <div className='mx-auto mt-5 text-center'>
                             <p style={{ color: '#f3e2d2' }} className=' font-bold text-xl'>Carnes e Aves</p>
                             <img className='mt-2  lg:px-10 md:px-24 sm:px-10 px-14' src='./sal-carne.svg'></img>
@@ -51,16 +51,16 @@ export default function Sal() {
             </div>
 
             {/* Parte rosa */}
-            <div className='xl:mx-40 lg:mx-10 md:mx-40 flex flex-col justify-center pt-0 mx-10'>
+            <div className='xl:mx-40 lg:mx-10 lg:pt-20 md:mx-40 flex flex-col justify-center pt-0 mx-10'>
                 <div className='flex flex-col justify-center'>
                     <img id='Origens-sal-duplo-mobile' className='md:p-0 sm:mt-5 pt-5 pb-4' src='/sal-duplo-rosa.svg'></img>
 
-                    <img  className='text-center lg:mx-80' src='/sal-rosa.svg'></img>
+                    <Image width={500} height={200} className='text-center lg:mx-80' src='/sal-rosa.svg'></Image>
 
                     <div className='flex flex-row justify-around'>
                         <div id='Origens-sal-duplo-web' className='lg:ml-16'></div>
-                        <div className='lg:w-full px-32' id='Origens-sal-duplo-web'>
-                            <img src='/sal-duplo-rosa.svg'></img>
+                        <div className='lg:w-full' id='Origens-sal-duplo-web'>
+                            <Image height={500} width={600} src='/sal-duplo-rosa.svg'></Image> 
                         </div>
                         <div className=' lg:w-3/4 flex flex-col lg:my-auto'>
                             <p className='lg:text-xl lg:text-right text-white py-5 text-sm text-center'>O Sal Rosa verdadeiro vem direto das  cadeias montanhosas localizadas no Himalaia. Contém até 84 minerais entre eles sódio, cloreto, cálcio, potássio, ferro, magnésio e o tão importante iodo. Essa variedade de minerais faz com que o sal rosa seja considerado um dos mais saudáveis</p>

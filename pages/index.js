@@ -12,12 +12,22 @@ export default function IndexPage() {
       <a href="https://api.whatsapp.com/send?phone=+558434220100" class="float" target="_blank">
         <i class="my-float"><img src='./wpp.png'></img></i>
       </a>
-      <Header />
-      <Origens />
-      <Sal />
-      <Produtos />
-      <Loja />
-      <Contato />
+      <div style={{backgroundColor: '#086aa0'}}>
+        <Header />
+        <div style={{backgroundColor: '#086aa0'}}>
+          <Origens />
+          <div style={{backgroundColor: '#fbe4d3'}}>
+            <Sal />
+            <div style={{backgroundColor: '#fbe4d3'}}>
+              <Produtos />
+              <div style={{backgroundColor: '#fbe4d3'}}>
+                <Loja />
+                <Contato />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer id='Footer' className='flex flex-row justify-center'>
         <img style={{ width: '5rem' }} className='py-5 my-auto' src='./agencia.svg'></img>
       </footer>
