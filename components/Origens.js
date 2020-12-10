@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Origens() {
     return (
         <div id='Origens-fundo' >
-            <div className='pt-40' id='Origens'>
+            <div className='md:pt-10 pt-40' id='Origens'>
                 <div className='lg:grid lg:grid-cols-7 lg:grid-cols-7   flex flex-row justify-center text-center' >
                     <div className='xl:col-start-5 lg:col-start-4 lg:col-end-8  md:col-end-7 lg:pt-0 md:pt-32 md:mt-0  mt-20 mt-10'>
                         <Image
