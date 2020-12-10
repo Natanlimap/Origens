@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Produtos() {
     return (
         <div id='Produtos'>
-            <div className='lg:flex-row justify-center flex flex-col text-center md:mx-40  mx-10'>
-                <img className='md:px-96' src='/produtos-logo.svg' />
+            <div className='lg:flex-row justify-center flex flex-col text-center mt-20 md:mx-40  mx-10'>
+                <img className='md:px-60 mb-5' src='/produtos-logo.svg' />
 
 
             </div>

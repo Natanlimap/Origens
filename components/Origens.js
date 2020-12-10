@@ -14,7 +14,6 @@ export default function Origens() {
                         ></Image>
                         <div className='lg:mt-5 lg:text-lg mx-10 text-justify text-white text-base '>
                             <p className=''>Origens traz em seu nome sua razão de existir que é procurar nas fontes mais nobres um sal com sabor e qualidade que, diferentemente do sal comum, não precisa passar pelo processo de refinamento que tira os minerais tão importantes do sal.</p>
-
                         </div>
                     </div>
                 </div>
