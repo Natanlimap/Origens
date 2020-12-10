@@ -99,6 +99,13 @@
 
 }
 
+@media (max-height: 600px) {
+    #Header{
+        height: 120vh;
+
+    }
+}
+
 
 #floatSide{
     position:fixed;
