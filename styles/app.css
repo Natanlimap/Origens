@@ -99,10 +99,19 @@
 
 }
 
-@media (max-height: 600px) {
+@media (max-height: 720px) {
     #Header{
         height: 120vh;
-
+    }
+}
+@media (max-height: 600px) {
+    #Header{
+        height: 140vh;
+    }
+}
+@media (max-height: 520px) {
+    #Header{
+        height: 150vh;
     }
 }
 
