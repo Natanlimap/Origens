@@ -29,7 +29,7 @@ export default function IndexPage() {
         </div>
       </div>
       <footer id='Footer' className='flex flex-row justify-center'>
-        <img style={{ width: '5rem' }} className='py-5 my-auto' src='./agencia.svg'></img>
+        <img style={{ width: '5rem' }} className='py-0 my-auto' src='./agencia.svg'></img>
       </footer>
     </div>
   )
