@@ -29,9 +29,9 @@ export default function MyNavbar({ fixed }) {
     )
   }
   return (
-    <div>
+    <div style={{backgroundColor: '#0a5c99'}}>
       {teste}
-      <div className='py-10  mx-10 flex flex-row justify-center'>
+      <div className='pt-10  mx-10 flex flex-row justify-center'>
         <div className='lg:w-1/4 '>
           <img className='lg:w-2/4 w-2/4' style={{minWidth: '10px'}} src='./nav-logo.svg'></img>
         </div>

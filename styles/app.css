@@ -1,15 +1,18 @@
-.body{
-    font-family: 'Raleway',sans-serif !important;
+html{
     overflow-x: hidden;
 }
-#Header{
-    background-image: url('../public/header-background.svg');
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #086aa0;
+.body{
+    font-family: 'Raleway',sans-serif !important;
+    overflow-x: hidden !important;
 }
+
+#image-web{
+    height: 90vh;
+    
+background: rgb(10,92,153);
+background: linear-gradient(3600deg, rgba(8,106,160,1) 50%,  rgba(10,92,153,1) 50%);
+}
+
 #Loja{
     background-image: url('../public/produtos-background.svg');
     width: 100vw;
@@ -61,13 +64,27 @@
 #Origens-sal-duplo-web{
     display: block;
 }
+@media (min-width: 1024px) and (max-width: 1230px)  and (min-height: 500px){
+    .lg\:mr-36 {
+        margin-right: 0rem;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #Origens{
+        padding-top: 9rem;
+    }
+    #Origens p{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-align: center;
+    }
+
+}
+
 
 @media (max-width: 1025px) {
-    #Header{
-        background-image: url('../public/header-background-mobile.jpg');
-        height: 160vw;
-
-    }
+  
     #Loja{
         background-image: url('../public/produtos-background.svg')
     }
@@ -76,7 +93,7 @@
         height: 100%;
     }
     #Origens-fundo{
-        background-color: #096aa1;
+        background-color: #365c95;
         height: 20rem;
     }
     #Origens-sal-duplo-mobile{
@@ -99,21 +116,6 @@
 
 }
 
-@media (max-height: 720px) {
-    #Header{
-        height: 120vh;
-    }
-}
-@media (max-height: 600px) {
-    #Header{
-        height: 140vh;
-    }
-}
-@media (max-height: 520px) {
-    #Header{
-        height: 150vh;
-    }
-}
 
 
 #floatSide{
